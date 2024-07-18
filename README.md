@@ -9,7 +9,7 @@ Primeiro você precisa criar um fork do projeto clicando no botão fork na parte
 
 Assim que você criar o fork, ele criará um repositório no seu nome, que te levará ao link neste modelo: https://github.com/SEU_NOME/CollageBook. Chegando no link  do seu repositório, clique na opção   "Code" e escolha a opção SSH e copie o URL (Pode-se ser feito clicando no botão de copiar ao lado do URL)
 
-![image](imgs/code2.png)
+![image](imgs/code.png)
 
 ![image](imgs/ssh.png)
 
