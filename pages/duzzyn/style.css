@@ -28,15 +28,15 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: var(--color-secundary);
-    padding: 1.5em 4em;
+    padding: 1.5em 2em;
 }
 
 .cabecalho__logo {
-    color: var(--white);
+    color: var(--white);    
     font-size: 14px;
     font-weight: 800;
-    letter-spacing: 4px;
-    filter: drop-shadow(10px 8px 4px var(--black))
+    letter-spacing: 2px;
+    filter: drop-shadow(10px 8px 6px var(--black))
 }
 
 .cabecalho__nav {
@@ -63,7 +63,7 @@ body {
 main {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     height: 100vh;
 }
 
