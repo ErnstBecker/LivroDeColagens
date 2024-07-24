@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+
+:root {
+    font-family: "Roboto", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.gradient {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #201E43, #134B70, #508C9B, #EEEEEE);
+    background-size: 200% 200%;                                                                                                                                                                                                      
+    animation: colors 15s ease infinite;
+
+}
+
+.cabecalho {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-secundary);
+    padding: 1.5em 4em;
+    
+}
+
+.cabecalho__logo {
+    color: white; text-shadow: rgb(224, 215, 215) 0.1em 0.1em 0.2em;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-decoration: none;
+    filter: drop-shadow(10px 8px 4px var(--white));
+    font-style: oblique;
+}
+
+@keyframes colors {
+
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+main {
+    color: white; 
+    text-shadow: rgb(224, 215, 215) 0.1em 0.1em 0.2em;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.reticencia::after{
+    content: '';
+    display: inline-block;
+    width: 1em;
+    text-align: left;
+    animation: reticencia 1.5s steps(4, end)infinite;
+}
+
+@keyframes reticencia {
+    0%, 100% {
+        content: '';
+    }
+    25% {
+        content: '.';
+    }
+    50% {
+        content: '..';
+    }
+    75% {
+        content: '...';
+    }
+}
