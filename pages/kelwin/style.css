@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*, li, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --color-primary: #633c3c;
+    --color-secundary: #4b3131;
+}
+
+body {
+    background-color: var(--color-primary);
+    font-family: "Roboto", sans-serif;
+}
+
+/* Cabeçalho - Header  */
+
+/* ATENTION!!! MOBILE-FIRST */
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-secundary);
+    padding: 1.5em 4em;
+}
+
+.cabecalho__logo {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    filter: drop-shadow(10px 8px 4px var(--black))
+}
+
+.cabecalho__nav {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    font-size: 12px;
+}
+
+.cabecalho__nav > li {
+    display: none;
+}
+
+.cabecalho__nav > li > a {
+    color: var(--white);
+}
+
+.cabecalho__nav > li > a:hover {
+    opacity: 0.4;
+    transition: 0.3s;
+    filter: drop-shadow(8px 10px 2px var(--black))
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: var(--white);
+    font-size: 28px;
+}
+
+/* Responsive Css */
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__logo {
+        font-size: 24px;
+    }
+
+    .cabecalho__nav {
+        font-size: 18px;
+    }
+    
+    .cabecalho__nav > li {
+        display: block;
+    }
+
+    i.fa-solid.fa-bars.fa-sm.cabecalho__nav-bars {
+        display: none;
+    }
+}
+
