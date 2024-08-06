@@ -1,100 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
-
-@keyframes animOut {
-  0% {top: -40%}
-  100% {top: -6%;}
-}
-
-.logoOut{
-  transform: rotate(90deg) rotateY(180deg);
-  position: fixed;
-  left: 44%;
-  top: -40%;
-  animation: animOut 4s infinite alternate;
-}
-
-@keyframes animIn {
-  0%  {left:50px}
-  100%  {left:-60px}
-}
-
-.logoIn {
-  position: fixed;
-  top: 20%;
-  left: 50px;
-  animation: animIn 4s infinite alternate;
-  /* animation-direction: alternate-reverse; */
-}
-
-@keyframes error {
-  0% {top: 40%; transform: rotate(0deg);}
-  20% {top: 35%; transform: rotate(20deg);}
-  40% {top: 30%; transform: rotate(10deg);}
-  60% {top: 30%; transform: rotate(-10deg);}
-  80% {top: 35%; transform: rotate(-20deg);}
-  100% {top: 40%; transform: rotate(0deg);}
-}
-
-.error{
-  left: 80%;
-  top: 50%;
-  position: fixed;
-  animation: error 3s infinite;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
 
 :root {
-  max-width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #151515;
-  color: #e7e7e7;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  background-image: url("background.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-header {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  padding: 0 3rem;
-}
-
-h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  text-align: center;
-  text-shadow: 0 0 3px #FF0043, 0 0 5px #FF0043;
-}
-
-p{
-  font-size: 30px;
-  text-shadow: 0 0 3px #FF0043, 0 0 5px #FF0043;
-}
-
-.orange-portal{
-  top: -1%;
-  left: 41%;
-  position: fixed;
-  color: #ff8800;
-  background-color: #ff8800;
-  padding: 0 100px;
-  border-radius: 100%;
-  z-index: 10;
-}
-
-.blue-portal{
-  position: fixed;
-  /* transform: rotate(90deg); */
-  top: 15%;
-  left: -5px;
-  border-radius: 100%;
-  padding: 100px 5px;
-  color: #008cff;
-  background-color: #008cff;
-  z-index: 10;
+	max-width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #151515;
+	color: #e7e7e7;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
