@@ -6,18 +6,13 @@
     border: 0;
     list-style-type: none;
     text-decoration: none;
+    font-family: "Roboto", sans-serif;
 }
 
 :root {
     --black: #000000;
     --white: #FFFFFF;
     --color-primary: #633c3c;
-    --color-secundary: #4b3131;
-}
-
-body {
-    background-color: var(--color-primary);
-    font-family: "Roboto", sans-serif;
 }
 
 /* Cabeçalho - Header  */
@@ -27,8 +22,9 @@ body {
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    background-color: var(--color-secundary);
-    padding: 1.5em 2em;
+    background: linear-gradient(90deg, #633c3c 48%, rgb(58, 48, 37) 100%);
+    filter: drop-shadow(2px 2px 6px black);
+    padding: 1em 2em;
 }
 
 .cabecalho__logo {
@@ -60,16 +56,51 @@ body {
     filter: drop-shadow(8px 10px 2px var(--black))
 }
 
+/* Main - Body */
+
 main {
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
+    background: linear-gradient(90deg, #633c3c 48%, rgb(58, 48, 37) 100%);
     height: 100vh;
 }
 
-h1 {
+.section__intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__title {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
     color: var(--white);
-    font-size: 28px;
+    font-size: 16px;
+    padding: 2em 0;
+}
+
+.section__text {
+    padding: 0 1em;
+    color: #e3d3d2;
+}
+
+.wordStack {
+    color: #3a84a5;
+    font-weight: 600;
+}
+
+.wordHtml {
+    color: rgb(169 56 11);
+    font-weight: 600;
+}
+
+.wordCss {
+    color: rgb(71, 71, 182);
+    font-weight: 600;
+}
+
+.wordNode {
+    color: rgb(73 137 73);
+    /* text-transform: uppercase; */
+    font-weight: 600;
 }
 
 /* Responsive Css */
