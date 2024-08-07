@@ -99,8 +99,38 @@ main {
 
 .wordNode {
     color: rgb(73 137 73);
-    /* text-transform: uppercase; */
     font-weight: 600;
+}
+
+.section__aboutme {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0;
+}
+
+.section__aboutme-title {
+    color: white;
+    align-self: center;
+    font-size: 20px;
+}
+
+.section__aboutme-text {
+    color: #e3d3d2;
+}
+
+.section__skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.section__skills-title {
+    color: white;
+}
+
+.section__skills-img {
+    width: 260px;
 }
 
 /* Responsive Css */
