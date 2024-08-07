@@ -133,6 +133,17 @@ main {
     width: 260px;
 }
 
+.section__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.section__contact-title {
+    color: white;
+}
+
 /* Responsive Css */
 
 @media screen and (min-width: 1024px) {
