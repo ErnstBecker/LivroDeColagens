@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://collagebook.netlify.app/">Collage Book 📖</a></h1>
+<h1 align="center"><a href="https://livrodecolagens.netlify.app/">Livro de Colagens 📖</a></h1>
 <p align="center">Projeto feito pelos alunos do Código Brazuca</p>
 
 <h2 align="center">Como fazer parte?</h2>
@@ -7,7 +7,7 @@ Primeiro você precisa criar um fork do projeto clicando no botão fork na parte
 
 ![image](imgs/forking.png)
 
-Assim que você criar o fork, ele criará um repositório no seu nome, que te levará ao link neste modelo: https://github.com/SEU_NOME/CollageBook. Chegando no link do seu repositório, clique na opção "Code" e escolha a opção SSH e copie o URL (Pode-se ser feito clicando no botão de copiar ao lado do URL)
+Assim que você criar o fork, ele criará um repositório no seu nome, que te levará ao link neste modelo: https://github.com/SEU_NOME/LivroDeColagens. Chegando no link do seu repositório, clique na opção "Code" e escolha a opção SSH e copie o URL (Pode-se ser feito clicando no botão de copiar ao lado do URL)
 
 ![image](imgs/code.png)
 
@@ -16,11 +16,11 @@ Assim que você criar o fork, ele criará um repositório no seu nome, que te le
 Após fazer todos esses passos, clone o repositório para um diretório de sua escolha
 
 ```bash
-git clone git@github.com:SEU_NOME/CollageBook.git
+git clone git@github.com:SEU_NOME/LivroDeColagens.git
 ```
 
 ```bash
-cd CollageBook
+cd LivroDeColagens
 ```
 
 <h2 align="center">Fazendo sua parte</h2>
