@@ -11,13 +11,15 @@
 <body>
     <header class="cabecalho">
         <a href="https://github.com/duzzyn" class="cabecalho__logo">&lt;DuzzynDev&gt;</span></a>
-        <nav class="cabecalho__nav">
-            <i class="fa-solid fa-bars fa-sm cabecalho__nav-bars" id="menuIcon" style="color: #ffffff;"></i>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Contact</a></li>
-        </nav>
+        <div class="cabecalho__nav">
+            <i class="fa-solid fa-bars fa-sm cabecalho__nav-bars" id="menuIcon" style="color: #ffffff; " onclick="toggleMenu()"></i>
+            <nav class="navbar" id="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="">Contact</a></li>
+            </nav>
+        </div>
     </header>
     <main>
         <section class="section__intro">
@@ -126,5 +128,6 @@
             <a href="https://wa.me/5521984719830"><img src="assets/icon-wpp.ico" class="footer__img" alt="icone do whatsapp"></a>
         </div>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
