@@ -144,6 +144,7 @@ body{
 @media only screen and (max-width: 908px) {
   
   .box{
+    width: 80%;
     height: 580px;
   }
   .conteudo{
@@ -153,7 +154,7 @@ body{
 
 @media only screen and (max-width: 697px) {
   .box{
-    height: 620px;
+    height: 540px;
   }
   .conteudo{
     height: 620px;
@@ -163,18 +164,18 @@ body{
 @media only screen and (max-width: 618px) {
   
   .box{
-    height: 670px;
+    height: 580px;
   }
+
   .conteudo{
     height: 670px;
   }
 }
 
-@media only screen and (max-width: 521px) {
+@media only screen and (max-width: 530px) {
   
   .box{
-    width: 60%;
-    height: 520px;
+    width: 80%;
   }
 
   .eu{
@@ -189,20 +190,18 @@ body{
   .texto{
     margin-top: 20px;
   }
-}
 
-@media only screen and (max-width: 514px) {
-
-  .box{
-    height: 540px;
+  .descriçao{
+    text-align: start;
+    margin: 0 2px 0 2px;
+    font-size: 14px;
   }
-
 }
 
-@media only screen and (max-width: 504px) {
+@media only screen and (max-width: 525px) {
 
   .box{
-    height: 550px;
+    height: 520px;
   }
 
 }
@@ -210,7 +209,12 @@ body{
 @media only screen and (max-width: 454px) {
 
   .box{
-    height: 560px;
+    height: 540px;
+  }
+
+  .descriçao{
+    font-size: 14px;
+    margin-bottom: 5px;
   }
 
 }
