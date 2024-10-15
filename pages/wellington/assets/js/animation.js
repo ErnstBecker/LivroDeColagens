@@ -1,11 +1,16 @@
-const myName = document.querySelector(".main__name-link");
+const myName = document.querySelector(".construction__link");
+const container = document.querySelector(".construction");
+
+
+container.style.position = "relative";
+
 myName.style.position = "absolute";
 
 function getRandomColor() {
 	return Math.floor(Math.random() * 16777215).toString(16);
 }
 
-//evento de passar o mouse
+// Evento de passar o mouse
 myName.addEventListener("mouseover", function () {
 	const randomColor = getRandomColor();
 	myName.style.color = "#" + randomColor;
@@ -15,17 +20,17 @@ myName.addEventListener("mouseout", function () {
 	myName.style.color = "black";
 });
 
-//inicia o texto
-let posicaoX = Math.random() * (window.innerWidth - myName.offsetWidth);
-let posicaoY = Math.random() * (window.innerHeight - myName.offsetHeight);
 
-let velocidadeX = 5;
+let posicaoX = Math.random() * (container.offsetWidth - myName.offsetWidth);
+let posicaoY = Math.random() * (container.offsetHeight - myName.offsetHeight);
+
+let velocidadeX = 2;
 let velocidadeY = 2;
 let animacao;
 
 function moveText() {
-	const containerWidth = window.innerWidth;
-	const containerHeight = window.innerHeight;
+	const containerWidth = container.offsetWidth;
+	const containerHeight = container.offsetHeight;
 	const textWidth = myName.offsetWidth;
 	const textHeight = myName.offsetHeight;
 
