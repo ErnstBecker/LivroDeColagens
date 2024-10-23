@@ -78,16 +78,29 @@ main {
 }
 
 .section__intro {
+    background: url(./assets/background-black-design.jpg) no-repeat;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section__introduction {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 2em;
+    gap: 2em;
+}
+
+.section__intro-img {
+    display: none;
 }
 
 .section__title {
     text-transform: uppercase;
     color: var(--white);
-    font-size: 16px;
-    padding: 2em 0;
+    font-size: 24px;
 }
 
 .section__text {
@@ -192,6 +205,11 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition-duration: 0.5s;
+}
+
+.section__project-card--img:hover {
+    transform: scale(1.03);
 }
 
 .div__project-card--infos {
@@ -287,6 +305,28 @@ main {
 
     .cabecalho__nav {
         font-size: 18px;
+    }
+
+    .section__introduction {
+        align-items: normal;
+        width: 70%;
+    }
+    
+    .section__text {
+        padding: 0em;
+    }
+
+    .section__intro-img {
+        display: block;
+        border-radius: 50%;
+        max-height: 250px;
+        max-width: 300px;
+        padding-top: 2em;
+        filter: brightness(1.2);
+    }
+
+    .section__text {
+        width: 25%;
     }
      
     i.fa-solid.fa-bars.fa-sm.cabecalho__nav-bars {
