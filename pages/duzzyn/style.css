@@ -314,9 +314,10 @@ main {
     .section__intro-img {
         display: block;
         border-radius: 50%;
-        max-height: 200px;
+        max-height: 250px;
         max-width: 300px;
         padding-top: 2em;
+        filter: brightness(1.2);
     }
 
     .section__text {
