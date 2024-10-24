@@ -16,6 +16,26 @@ body {
     border-radius: 10px;
 }
 
+#social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#github-ico {
+    width: 40px;
+    margin-right: 5px;
+}
+
+#linkedin-ico {
+    width: 38px;
+    margin-right: 5px;
+}
+
+#instagram-ico {
+    width: 38px;
+}
+ 
 #main-info {
     color: rgba(255, 255, 255, 0.849);
     display: flex;
