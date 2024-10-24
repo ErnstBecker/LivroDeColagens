@@ -22,13 +22,13 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    background: var(--color-primary);
+    background: var(--white);
     filter: drop-shadow(2px 2px 6px black);
     padding: 1em 2em;
 }
 
 .cabecalho__logo {
-    color: var(--white);    
+    color: var(--black);    
     font-size: 14px;
     font-weight: 800;
     letter-spacing: 2px;
@@ -61,11 +61,11 @@
 }
 
 .navbar > li > a {
-    color: var(--white);
+    color: var(--black);
 }
 
 .navbar > li > a:hover {
-    color: #f1f1f1;
+    color: #251212;
     opacity: 0.4;
     transition: 0.3s;
     filter: drop-shadow(8px 10px 2px var(--black));
@@ -74,7 +74,7 @@
 /* Main - Body */
 
 main {
-    background: var(--color-primary);
+    background: var(--white);
 }
 
 .section__intro {
@@ -136,13 +136,13 @@ main {
 }
 
 .section__aboutme-title {
-    color: var(--white);
+    color: var(--black);
     align-self: center;
     font-size: 20px;
 }
 
 .section__aboutme-text {
-    color: #e3d3d2;
+    color: var(--black);
     padding: 0 1em;
 }
 
@@ -155,7 +155,7 @@ main {
 }
 
 .section__skills-title {
-    color: var(--white);
+    color: var(--black);
 }
 
 .section__skills-img {
@@ -170,7 +170,7 @@ main {
 }
 
 .section__contact-title {
-    color: var(--white);
+    color: var(--black);
 }
 
 .section__projects {
@@ -181,7 +181,7 @@ main {
 }   
 
 .section__project-title {
-    color: var(--white);
+    color: var(--black);
     padding: 0 1em;
 }
 
@@ -217,12 +217,12 @@ main {
     flex-direction: column;
     gap: 1em;
     padding: 0.7em;
-    color: var(--white);
+    color: var(--black);
 }
 
 .section__project-card--title {
     font-size: 18px;
-    color: var(--white);
+    color: var(--black);
 }
 
 .section__project-card--about {
@@ -246,7 +246,6 @@ main {
 .div__project-card--imgCorrente {
     width: 24px;
     object-fit: cover;
-    filter: invert(1);
 }
 
 .div__project-card--footer-img {
@@ -256,7 +255,7 @@ main {
 
 .div__project-card--footer > div > a {
     font-size: 12px;
-    color: var(--white);
+    color: var(--black);
     text-decoration: underline;
 }
 
@@ -264,13 +263,13 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--color-primary);
+    background: var(--white);
     filter: drop-shadow(2px 2px 8px black);
     padding: 1em;
 }
 
 .footer__title {
-    color: var(--white);
+    color: var(--black);
     font-size: 14px;
     letter-spacing: 2px;
     filter: drop-shadow(10px 8px 6px var(--black));
@@ -369,7 +368,7 @@ main {
     
     .footer__hidden {
         display: block;
-        color: var(--white);
+        color: var(--black);
     }
     
     .footer__span-whatsapp {
