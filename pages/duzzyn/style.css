@@ -13,6 +13,7 @@
     --black: #000000;
     --white: #FFFFFF;
     --color-primary: rgb(15 23 42);
+    --color-logo: #272323;
 }
 
 /* ATENTION!!! MOBILE-FIRST */
@@ -28,11 +29,11 @@
 }
 
 .cabecalho__logo {
-    color: var(--black);    
+    color: var(--color-logo);    
     font-size: 14px;
     font-weight: 800;
     letter-spacing: 2px;
-    filter: drop-shadow(10px 8px 6px var(--black))
+    filter: drop-shadow(10px 8px 6px #5f5757)
 }
 
 .cabecalho__nav {
@@ -142,7 +143,7 @@ main {
 }
 
 .section__aboutme-text {
-    color: var(--black);
+    color: #4b3730;
     padding: 0 1em;
 }
 
@@ -210,6 +211,7 @@ main {
 
 .section__project-card--img:hover {
     transform: scale(1.03);
+    filter: brightness(0.7);
 }
 
 .div__project-card--infos {
@@ -264,15 +266,15 @@ main {
     justify-content: space-between;
     align-items: center;
     background: var(--white);
-    filter: drop-shadow(2px 2px 8px black);
+    filter: drop-shadow(2px 2px 8px #5f5757);
     padding: 1em;
 }
 
 .footer__title {
-    color: var(--black);
+    color: var(--color-logo);
     font-size: 14px;
     letter-spacing: 2px;
-    filter: drop-shadow(10px 8px 6px var(--black));
+    filter: drop-shadow(10px 8px 6px #5f5757);
 }
 
 .footer__contact {
