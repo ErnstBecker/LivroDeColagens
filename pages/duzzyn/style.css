@@ -106,7 +106,7 @@ main {
 
 .section__text {
     padding: 0 1em;
-    color: #e3d3d2;
+    color: var(--white);
 }
 
 .wordStack {
