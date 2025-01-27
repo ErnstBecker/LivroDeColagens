@@ -62,7 +62,7 @@
 }
 
 .navbar > li > a {
-    color: var(--black);
+    color: var(--white);
 }
 
 .navbar > li > a:hover {
@@ -338,6 +338,10 @@ main {
         display: flex;
         gap: 1.5em;
     }
+
+    .navbar > li > a {
+        color: var(--black);
+    }
     
     .navToggle {
         display: flex;
@@ -349,7 +353,7 @@ main {
     }
     
     .navToggle > li > a {
-        color: var(--white);
+        color: var(--black);
     }
 
     .div__project-card {
