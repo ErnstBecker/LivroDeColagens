@@ -14,18 +14,18 @@
   <header class="cabecalho">
     <a href="https://github.com/duzzyn" class="cabecalho__logo">&lt;DuzzynDev&gt;</span></a>
     <div class="cabecalho__nav">
-      <i class="fa-solid fa-bars fa-sm cabecalho__nav-bars" id="menuIcon" style="color: #ffffff; "
+      <i class="fa-solid fa-bars fa-sm cabecalho__nav-bars" id="menuIcon" style="color: #000000; "
         onclick="toggleMenu()"></i>
       <nav class="navbar" id="navbar">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#aboutme">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
       </nav>
     </div>
   </header>
   <main>
-    <section class="section__intro">
+    <section class="section__intro" id="home">
       <div class="section__introduction">
         <h1 class="section__title">Full-Stack Developer</h1>
         <p class="section__text">Olá👋, eu sou um <span class="wordStack">Full-Stack Developer</span>
@@ -36,7 +36,7 @@
       </div>
       <img src="assets/logo-github.jfif" alt="imagem perfil github" class="section__intro-img">
     </section>
-    <section class="section__aboutme">
+    <section class="section__aboutme" id="aboutme">
       <h1 class="section__aboutme-title">Sobre Mim</h1>
       <p class="section__aboutme-text">Meu nome é Eduardo, eu tenho 17 anos e sou um autodidata em programação e
         economia.
@@ -47,7 +47,7 @@
         e agora estou em processo de aprendizado sobre como a tecnologia por trás da blockchain funciona.
       </p>
     </section>
-    <section class="section__skills">
+    <section class="section__skills" id="skills">
       <h1 class="section__skills-title">Skills</h1>
       <img src="https://skillicons.dev/icons?i=nodejs,js,html,css,bootstrap,mongodb,express,mysql&theme=dark&perline=4"
         alt="tecnologies" class="section__skills-img">
@@ -137,7 +137,7 @@
       </div>
     </section>
   </main>
-  <footer class="footer">
+  <footer class="footer" id="contact">
     <h3 class="footer__title">&lt;DuzzynDev/&gt;</h3>
     <div class="footer__contact">
       <p class="footer__text-github footer__hidden">GitHub</p>
